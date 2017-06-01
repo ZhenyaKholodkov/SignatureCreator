@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bef34b5d-91b8-413c-8543-93420cb0d4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility">
+      <UniqueIdentifier>{b1d03d30-bbbb-4b5a-a0c0-96fd9ad8de25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility\io">
+      <UniqueIdentifier>{a43c18d9-d861-4d11-a502-fa5870aceb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility\hash">
+      <UniqueIdentifier>{363ec192-611e-4e79-839e-96645ee00652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility\hash\sha256">
+      <UniqueIdentifier>{7036483c-a110-42c7-a3ab-99838da4d7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility\help">
+      <UniqueIdentifier>{5184ce75-4876-4333-b5c5-7d63a04de082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignatureUtility\blocks">
+      <UniqueIdentifier>{ef551c2b-5d67-4d8a-abba-82f5ac66b9be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SignatureUtility\blocks\sBlockHandler.cpp">
+      <Filter>src\SignatureUtility\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignatureUtility\hash\sha256\sha256.cpp">
+      <Filter>src\SignatureUtility\hash\sha256</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignatureUtility\sProgram.cpp">
+      <Filter>src\SignatureUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignatureUtility\io\sReadStream.cpp">
+      <Filter>src\SignatureUtility\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignatureUtility\io\sWriteStream.cpp">
+      <Filter>src\SignatureUtility\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SignatureUtility\sProgram.h">
+      <Filter>src\SignatureUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\help\sDefines.h">
+      <Filter>src\SignatureUtility\help</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\io\sWriteStream.h">
+      <Filter>src\SignatureUtility\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\io\sReadStream.h">
+      <Filter>src\SignatureUtility\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\blocks\sBlockHandler.h">
+      <Filter>src\SignatureUtility\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\blocks\sBlock.h">
+      <Filter>src\SignatureUtility\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\hash\sha256\sha256.h">
+      <Filter>src\SignatureUtility\hash\sha256</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SignatureUtility\sOptions.h">
+      <Filter>src\SignatureUtility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
